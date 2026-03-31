@@ -19,8 +19,8 @@ int main(){
     }
 
     if (limite <= 0) {
-    printf("Erro: O limite deve ser um numero positivo.\n");
-    return 1;
+        printf("Erro: O limite deve ser um numero positivo.\n");
+        return 1;
     }
 
 

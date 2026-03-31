@@ -9,6 +9,11 @@ int main(){
         return 1;
     }
 
+    if(a == 0){
+        printf("Erro: coeficiente 'a' nao pode ser zero.\n");
+        return 1;
+    }
+
     delta = (b*b) - 4*a*c;
 
     if(delta < 0){

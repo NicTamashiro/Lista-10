@@ -8,12 +8,12 @@ int main(){
 
     printf("Digite as coordenadas do primeiro ponto: \n");
     if(scanf("%f %f", &x1, &y1)!=2){
-        printf("Erro: Digite apenas numeros inteiros.");
+        printf("Erro: Entrada invalida, digite dois numeros.");
         return 1;
     }
     printf("Digite as coordenadas do segundo ponto: \n");
     if(scanf("%f %f", &x2, &y2)!=2){
-        printf("Erro: Digite apenas numeros inteiros.");
+        printf("Erro: Entrada invalida, digite dois numeros.");
         return 1;
     }
 

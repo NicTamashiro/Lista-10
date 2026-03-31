@@ -5,17 +5,16 @@ int main() {
     int n, i;
     int primo = 1;
 
-    printf("Digite um numero: ");
+    printf("Digite um numero entre 2 e 998: ");
 
     if(scanf("%d", &n) != 1) {
         printf("Entrada invalida\n");
         return 1;
     }
 
-    // caso seja 0 ou 1
-    if(n < 2) {
-        printf("Nao e primo\n");
-        return 0;
+    if(n <= 1 || n >= 999){
+        printf("Erro: Digite um numero entre 2 e 998.\n");
+        return 1;
     }
 
     for(i = 2; i < n; i++) {
